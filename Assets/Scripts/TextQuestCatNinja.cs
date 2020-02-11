@@ -15,6 +15,8 @@ public class TextQuestCatNinja : MonoBehaviour
   public Steps instruction;
   public Steps gameOver;
 
+  // public Sprite permanentCat;
+  // public Sprite rainbow;
   void ResetGame(Steps any)
   {
     karmaCount = 2;
