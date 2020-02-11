@@ -14,6 +14,8 @@ public class TextQuestCatNinja : MonoBehaviour
   public Steps activeStep; // степ, выводящийся на экран в данный момент
   public Steps instruction;
   public Steps gameOver;
+  public Image contentImage;
+
 
   // public Sprite permanentCat;
   // public Sprite rainbow;
@@ -22,8 +24,9 @@ public class TextQuestCatNinja : MonoBehaviour
     karmaCount = 2;
     contentText.text = any.content;
     choicesText.text = any.choices;
-    karma.text = karmaCount.ToString();
+    karma.text = "Карма: " + karmaCount.ToString();
     activeStep = any.steps[0];
+    contentImage.sprite = activeStep.image;
   }
 
   // Start is called before the first frame update
@@ -51,8 +54,9 @@ public class TextQuestCatNinja : MonoBehaviour
     {
       ResetGame(instruction);
     }
-  }
-  void checkPress(int index)
+
+    }
+    void checkPress(int index)
   {
     if (index < activeStep.steps.Length)
     {
@@ -60,8 +64,9 @@ public class TextQuestCatNinja : MonoBehaviour
       contentText.text = activeStep.content;
       choicesText.text = activeStep.choices;
       karmaCount += activeStep.karmaMod;
-      karma.text = karmaCount.ToString();
-      if (karmaCount == 0)
+      karma.text = "Карма: " + karmaCount.ToString();
+      contentImage.sprite = activeStep.image;
+            if (karmaCount == 0)
       {
         ResetGame(gameOver);
       }

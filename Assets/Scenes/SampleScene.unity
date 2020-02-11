@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -154,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -35.199997, y: 317.2}
-  m_SizeDelta: {x: -934.4, y: -738}
+  m_AnchoredPosition: {x: 57, y: 227.40002}
+  m_SizeDelta: {x: -610.2, y: -558.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18806929
 MonoBehaviour:
@@ -176,7 +177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f32ae91ebe2958588b80c7f114af7843, type: 3}
     m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
@@ -249,6 +250,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1631409652}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &37659751
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,14 +300,15 @@ MonoBehaviour:
     \u041F\u043E\u0441\u0442\u0430\u0440\u0430\u0439\u0442\u0435\u0441\u044C \u043D\u0435
     \u0440\u0430\u0441\u0442\u0440\u0430\u0442\u0438\u0442\u044C \u0435\u0451 \u0432\u0441\u044E,
     \u043A\u043E\u0433\u0434\u0430 \u0431\u0443\u0434\u0435\u0442\u0435 \u0441\u043E\u0432\u0435\u0442\u043E\u0432\u0430\u0442\u044C
-    \u043A\u043E\u0442\u0443, \u043A\u0430\u043A \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C.
-    \ \u0412\u044B \u0435\u0433\u043E \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0439
+    \u043A\u043E\u0442\u0443, \u043A\u0430\u043A \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C. 
+    \u0412\u044B \u0435\u0433\u043E \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0439
     \u0433\u043E\u043B\u043E\u0441.\n\u0421\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430
     \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u0435\u043C \u043A\u0430\u0440\u043C\u044B!"
   choices: "1. \u0414\u0430\u043B\u0435\u0435"
   steps:
   - {fileID: 1973825073}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &200218471
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +367,7 @@ MonoBehaviour:
   steps:
   - {fileID: 389759008}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &201892875
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +428,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1270689899}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &240348639
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +478,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1629678920}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &271773708
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +535,7 @@ MonoBehaviour:
   steps:
   - {fileID: 2023503856}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &351662541
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +589,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1558059655}
   karmaMod: 0
+  image: {fileID: 21300000, guid: 2e30e12b97c743bf1afb4172cb2ea00f, type: 3}
 --- !u!1 &353265858
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +654,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f32ae91ebe2958588b80c7f114af7843, type: 3}
     m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 1
@@ -721,6 +729,7 @@ MonoBehaviour:
   steps:
   - {fileID: 200218473}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &389759007
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,23 +761,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "(\u0417\u0430\u043F\u0438\u0441\u043A\u0438 \u043A\u043E\u0442\u0430)\n\u041B\u0435\u0442\u043E,
     \u0432\u0440\u043E\u0434\u0435. \u041D\u0435 \u0441\u0430\u043C\u0430\u044F \u0436\u0430\u0440\u0438\u0449\u0430,
-    \u0437\u043D\u0430\u0447\u0438\u0442 \u043D\u0435 \u0438\u044E\u043B\u044C . \u0416\u0430\u0441\u043C\u0438\u043D
-    \u0446\u0432\u0435\u0442\u0451\u0442 - \u0437\u043D\u0430\u0447\u0438\u0442 \u0438\u044E\u043D\u044C?\n\u0410
-    \u043C\u043E\u0436\u0435\u0442 \u044D\u0442\u043E \u0441\u0438\u0440\u0435\u043D\u044C?
-    \u0410, \u043D\u0435\u0442, \u0441\u0438\u0440\u0435\u043D\u044C \u0441\u0438\u0440\u0435\u043D\u0435\u0432\u0430\u044F.
-    \u0425\u043E\u0442\u044C \u0431\u044B \u042E\u0440\u0430 \u043E\u0441\u0442\u0430\u0432\u0438\u043B
-    \u0444\u043E\u0440\u0442\u043E\u0447\u043A\u0443\n\u043E\u0442\u043A\u0440\u044B\u0442\u043E\u0439,
+    \u0437\u043D\u0430\u0447\u0438\u0442 \u043D\u0435 \u0438\u044E\u043B\u044C .
+    \u0416\u0430\u0441\u043C\u0438\u043D \u0446\u0432\u0435\u0442\u0451\u0442 - \u0437\u043D\u0430\u0447\u0438\u0442
+    \u0438\u044E\u043D\u044C?\n\u0410 \u043C\u043E\u0436\u0435\u0442 \u044D\u0442\u043E
+    \u0441\u0438\u0440\u0435\u043D\u044C? \u0410, \u043D\u0435\u0442, \u0441\u0438\u0440\u0435\u043D\u044C
+    \u0441\u0438\u0440\u0435\u043D\u0435\u0432\u0430\u044F. \u0425\u043E\u0442\u044C
+    \u0431\u044B \u042E\u0440\u0430 \u043E\u0441\u0442\u0430\u0432\u0438\u043B \u0444\u043E\u0440\u0442\u043E\u0447\u043A\u0443\n\u043E\u0442\u043A\u0440\u044B\u0442\u043E\u0439,
     \u043C\u0443\u0445\u0430 \u0431\u044B \u0432 \u0433\u043E\u0441\u0442\u0438 \u043F\u043E\u0441\u0442\u0443\u0447\u0430\u043B\u0430\u0441\u044C
     \u0438\u043B\u0438 \u041C\u0443\u0440\u043A\u0430... \u042F - \u042D\u043B\u0432\u0438\u0441.\n\u0411\u0435\u0437
     \u043F\u043E\u0440\u043E\u0434\u044B, \u043D\u043E \u043E\u0447\u0435\u043D\u044C
     \u0445\u043E\u0440\u043E\u0448 \u0441\u043E\u0431\u043E\u0439: \u0433\u043E\u043B\u0443\u0431\u044B\u0435
     \u0433\u043B\u0430\u0437\u0430, \u0431\u0435\u043B\u0430\u044F \u0448\u0435\u043B\u043A\u043E\u0432\u0438\u0441\u0442\u0430\u044F
-    \u0448\u0435\u0440\u0441\u0442\u044C ,\n\u0442\u0435\u043C\u043D\u044B\u0435 \u0443\u0448\u0438,
-    \u0445\u0432\u043E\u0441\u0442, \u043B\u0430\u043F\u044B . "
+    \u0448\u0435\u0440\u0441\u0442\u044C ,\n\u0442\u0435\u043C\u043D\u044B\u0435
+    \u0443\u0448\u0438, \u0445\u0432\u043E\u0441\u0442, \u043B\u0430\u043F\u044B
+    . "
   choices: "1. \u0414\u0430\u043B\u0435\u0435"
   steps:
   - {fileID: 201892877}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!4 &389759009
 Transform:
   m_ObjectHideFlags: 0
@@ -949,6 +960,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1631409652}
   karmaMod: 1
+  image: {fileID: 0}
 --- !u!1 &695160960
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,7 +998,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f32ae91ebe2958588b80c7f114af7843, type: 3}
     m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 1
@@ -1025,7 +1037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.2999878, y: 1.300003}
+  m_AnchoredPosition: {x: -1.2999268, y: 1.300003}
   m_SizeDelta: {x: -39.9, y: -35.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &743120716
@@ -1155,6 +1167,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1503421600}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &848678644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1217,7 @@ MonoBehaviour:
   steps:
   - {fileID: 2023503856}
   karmaMod: 1
+  image: {fileID: 0}
 --- !u!1 &880218330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,15 +1261,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d603baea108d0f30ab58be5d1a019a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u041F\u0440\u0438\u0432\u0435\u0442! \u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
-    \u0432 \u0438\u0433\u0440\u0443 Cat - Ninja!\n\n\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.\n\u0410
+  content: "\u041F\u0440\u0438\u0432\u0435\u0442! \u0414\u043E\u0431\u0440\u043E
+    \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C \u0432 \u0438\u0433\u0440\u0443
+    Cat - Ninja!\n\n\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.\n\u0410
     \u0432\u044B \u0437\u043D\u0430\u043B\u0438, \u0447\u0442\u043E \u0443 \u043A\u043E\u0442\u0438\u043A\u043E\u0432
     \u0435\u0441\u0442\u044C \u0441\u0432\u043E\u044F \u043A\u0430\u0440\u043C\u0430?
     \u041F\u043E\u0441\u0442\u0430\u0440\u0430\u0439\u0442\u0435\u0441\u044C \u043D\u0435
     \u0440\u0430\u0441\u0442\u0440\u0430\u0442\u0438\u0442\u044C \u0435\u0451 \u0432\u0441\u044E,
     \u043A\u043E\u0433\u0434\u0430 \u0431\u0443\u0434\u0435\u0442\u0435 \u0441\u043E\u0432\u0435\u0442\u043E\u0432\u0430\u0442\u044C
-    \u043A\u043E\u0442\u0443, \u043A\u0430\u043A \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C.
-    \ \u0412\u044B \u0435\u0433\u043E \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0439
+    \u043A\u043E\u0442\u0443, \u043A\u0430\u043A \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C. 
+    \u0412\u044B \u0435\u0433\u043E \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0439
     \u0433\u043E\u043B\u043E\u0441.\n\u0421\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430
     \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u0435\u043C \u043A\u0430\u0440\u043C\u044B!\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435
     \u043A\u043B\u0430\u0432\u0438\u0448\u0443 \"1\"\n"
@@ -1263,6 +1278,7 @@ MonoBehaviour:
   steps:
   - {fileID: 37659753}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &890206380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1330,80 @@ MonoBehaviour:
   steps:
   - {fileID: 2023503856}
   karmaMod: -1
+  image: {fileID: 0}
+--- !u!1 &942382489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942382490}
+  - component: {fileID: 942382492}
+  - component: {fileID: 942382491}
+  m_Layer: 5
+  m_Name: Content Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &942382490
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942382489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1229123871}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 79, y: 16}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &942382491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942382489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2e30e12b97c743bf1afb4172cb2ea00f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &942382492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942382489}
+  m_CullTransparentMesh: 0
 --- !u!1 &985175346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1452,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1631409652}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &1066812472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1511,7 @@ MonoBehaviour:
   - {fileID: 1735467369}
   - {fileID: 1896324455}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1162966226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,6 +1575,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1503421600}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &1184375461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1184375462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1517,7 +1610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.6, y: 317.2}
+  m_AnchoredPosition: {x: 48, y: 233}
   m_SizeDelta: {x: 38, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184375463
@@ -1539,7 +1632,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f32ae91ebe2958588b80c7f114af7843, type: 3}
     m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
@@ -1590,6 +1683,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 353265859}
+  - {fileID: 942382490}
   m_Father: {fileID: 1530354613}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1727,6 +1821,7 @@ MonoBehaviour:
   steps:
   - {fileID: 351662543}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1331546039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,12 +1943,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   karmaCount: 0
-  karma: {fileID: 1184375463}
+  karma: {fileID: 18806929}
   contentText: {fileID: 353265861}
   choicesText: {fileID: 695160961}
   activeStep: {fileID: 880218332}
   instruction: {fileID: 37659753}
   gameOver: {fileID: 1588432741}
+  contentImage: {fileID: 942382491}
 --- !u!1 &1418665765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,6 +2058,7 @@ MonoBehaviour:
   - {fileID: 2025287242}
   - {fileID: 271773710}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1530354607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,6 +2262,7 @@ MonoBehaviour:
   - {fileID: 1624821468}
   - {fileID: 21419352}
   karmaMod: 0
+  image: {fileID: 21300000, guid: 1e6270d48ca56c564837c0db5a068b74, type: 3}
 --- !u!1 &1588432739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2311,7 @@ MonoBehaviour:
   steps:
   - {fileID: 880218332}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1624821466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,6 +2364,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1631409652}
   karmaMod: 1
+  image: {fileID: 0}
 --- !u!1 &1629678919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,6 +2399,7 @@ MonoBehaviour:
   steps:
   - {fileID: 880218332}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!4 &1629678921
 Transform:
   m_ObjectHideFlags: 0
@@ -2370,6 +2471,7 @@ MonoBehaviour:
   - {fileID: 1162966228}
   - {fileID: 1810425495}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1647192099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2521,7 @@ MonoBehaviour:
   - {fileID: 985175348}
   - {fileID: 603911968}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1735467367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,6 +2574,7 @@ MonoBehaviour:
   steps:
   - {fileID: 240348641}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &1810425493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2522,6 +2626,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1503421600}
   karmaMod: 1
+  image: {fileID: 0}
 --- !u!1 &1851172850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,6 +2678,7 @@ MonoBehaviour:
   steps:
   - {fileID: 2023503856}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &1868457308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,6 +2731,7 @@ MonoBehaviour:
   steps:
   - {fileID: 240348641}
   karmaMod: -1
+  image: {fileID: 0}
 --- !u!1 &1896324453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,6 +2783,7 @@ MonoBehaviour:
   steps:
   - {fileID: 240348641}
   karmaMod: 1
+  image: {fileID: 0}
 --- !u!1 &1973825071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2832,7 @@ MonoBehaviour:
   steps:
   - {fileID: 388532507}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &2023503854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,19 +2876,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d603baea108d0f30ab58be5d1a019a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u042F \u0442\u0443\u0442 \u0437\u0430\u043C\u0435\u0442\u0438\u043B \u043E\u0434\u043D\u0443
-    \u0432\u0435\u0449\u044C: \u0445\u043E\u0437\u044F\u0438\u043D, \u043A\u043E\u0433\u0434\u0430
-    \u043D\u0435\u0440\u0432\u043D\u0438\u0447\u0430\u0435\u0442, \u043A\u0443\u0448\u0430\u0435\u0442
-    \u043A\u0430\u043A\u0438\u0435-\u0442\u043E \u0436\u0435\u043B\u0442\u0435\u043D\u044C\u043A\u0438\u0435
-    \u0442\u0430\u0431\u043B\u0435\u0442\u043A\u0438. \u0418 \u043F\u0443\u0437\u044B\u0440\u0435\u043A
-    \u043D\u0430 \u0442\u0443\u043C\u0431\u043E\u0447\u043A\u0435 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
-    \u043E\u0441\u0442\u0430\u0432\u0438\u043B...\n5 \u043C\u0438\u043D\u0443\u0442
-    \u0441\u043F\u0443\u0441\u0442\u044F..\n\u043D\u0435 \u0437\u043D\u0430\u044E
-    \u043A\u0430\u043A \u0432\u044B, \u0430 \u044F \u043D\u0430\u043B\u0438\u0437\u0430\u043B\u0441\u044F"
+  content: "\u042F \u0442\u0443\u0442 \u0437\u0430\u043C\u0435\u0442\u0438\u043B
+    \u043E\u0434\u043D\u0443 \u0432\u0435\u0449\u044C: \u0445\u043E\u0437\u044F\u0438\u043D,
+    \u043A\u043E\u0433\u0434\u0430 \u043D\u0435\u0440\u0432\u043D\u0438\u0447\u0430\u0435\u0442,
+    \u043A\u0443\u0448\u0430\u0435\u0442 \u043A\u0430\u043A\u0438\u0435-\u0442\u043E
+    \u0436\u0435\u043B\u0442\u0435\u043D\u044C\u043A\u0438\u0435 \u0442\u0430\u0431\u043B\u0435\u0442\u043A\u0438.
+    \u0418 \u043F\u0443\u0437\u044B\u0440\u0435\u043A \u043D\u0430 \u0442\u0443\u043C\u0431\u043E\u0447\u043A\u0435
+    \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u043E\u0441\u0442\u0430\u0432\u0438\u043B...\n5
+    \u043C\u0438\u043D\u0443\u0442 \u0441\u043F\u0443\u0441\u0442\u044F..\n\u043D\u0435
+    \u0437\u043D\u0430\u044E \u043A\u0430\u043A \u0432\u044B, \u0430 \u044F \u043D\u0430\u043B\u0438\u0437\u0430\u043B\u0441\u044F"
   choices: "1. \u0414\u0430\u043B\u0435\u0435"
   steps:
   - {fileID: 1066812474}
   karmaMod: 0
+  image: {fileID: 0}
 --- !u!1 &2025287240
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,3 +2944,4 @@ MonoBehaviour:
   - {fileID: 1851172852}
   - {fileID: 890206382}
   karmaMod: 0
+  image: {fileID: 0}
