@@ -11,5 +11,4 @@ public class Steps : MonoBehaviour
   public string choices;
   public Steps[] steps;
   public int karmaMod;
-
 }
